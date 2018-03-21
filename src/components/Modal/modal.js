@@ -5,6 +5,7 @@ import RaisedButton from 'material-ui/RaisedButton';
 import DatePicker from 'material-ui/DatePicker';
 import Cupos from './cupos';
 import DatosNewEvent from './datos';
+import Hours from './horario';
 
 
 export default class DialogExampleDialogDatePicker extends React.Component {
@@ -45,6 +46,8 @@ export default class DialogExampleDialogDatePicker extends React.Component {
           <DatosNewEvent />
           Fecha
           <DatePicker hintText="Date Picker" />
+          Horario
+          <Hours />
           Cupos
           <Cupos />
 

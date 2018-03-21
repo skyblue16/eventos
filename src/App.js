@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import DialogExampleModal from './Modal/modal.js';
 import Login from './components/Login'
 import DialogExampleModal from './components/Modal/modal.js';
 import logo from './logo.svg';

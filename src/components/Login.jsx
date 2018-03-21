@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import firebase, { auth, provider } from './../firebase.js';
+import firebase, { auth, provider } from './../firebase';
 
 class Login extends Component {
 
