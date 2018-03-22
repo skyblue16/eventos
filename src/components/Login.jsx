@@ -48,6 +48,7 @@ class Login extends Component {
         {this.state.user ? (
         <Nav pullRight>
               <NewEvent />
+
               <NavDropdown
                 eventKey={4}
                 title={this.state.user.displayName}
