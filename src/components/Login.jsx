@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import NewEvent from './Modal/modal';
 import firebase, { auth, provider } from './../firebase';
 import { Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 
@@ -46,9 +47,7 @@ class Login extends Component {
       <div>
         {this.state.user ? (
         <Nav pullRight>
-              <NavItem eventKey={1} href="#" onClick="createEvent">
-                Create event
-              </NavItem>
+              <NewEvent />
               <NavDropdown
                 eventKey={4}
                 title={this.state.user.displayName}
