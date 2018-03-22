@@ -5,6 +5,7 @@ import logo from './logo.svg';
 import NavBar from './components/NavBar';
 import Carousel from './components/Carousel';
 import Eventos from './components/Eventos';
+import datos from './components/Modal/datos';
 
 import './App.css';
 
@@ -14,7 +15,7 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <Carousel />
-        <Eventos />
+        <Eventos /> 
       </div>
     );
   }
