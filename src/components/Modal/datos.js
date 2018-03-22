@@ -14,6 +14,7 @@ class DatosNewEvent extends Component {
     this.smsData = this.smsData.bind(this)
 }
 componentDidMount(){
+  
   firebase.database().ref('mensajes/').on('value', snap => {
       const currentMessages = snap.val();
       if (currentMessages !== null) {
