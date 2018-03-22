@@ -4,6 +4,7 @@ import {Divider, Thumbnail, Grid, Row, Col, Button} from 'react-bootstrap';
 class Eventos extends Component {
     render(){
         return(
+          
             <Grid className="grid">
   <Row>
     <Col xs={6} md={4}>
